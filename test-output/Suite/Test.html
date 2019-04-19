@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Apr 19 18:21:16 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>36 seconds (36545 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='factory.oneWay.SingleTrip()'><b>SingleTrip</b><br>Test class: factory.oneWay<br>Test method: TC_01<br>Parameters: TC_01, Chennai, Madurai, May, 11</td>
+<td></td>
+<td>7</td>
+<td>factory.oneWay@4602c2a9</td></tr>
+<tr>
+<td title='factory.oneWay.findRate()'><b>findRate</b><br>Test class: factory.oneWay<br>Test method: TC_02</td>
+<td></td>
+<td>27</td>
+<td>factory.oneWay@4602c2a9</td></tr>
+<tr>
+<td title='factory.twoWay.twoWayRate()'><b>twoWayRate</b><br>Test class: factory.twoWay<br>Test method: TC_04</td>
+<td></td>
+<td>22</td>
+<td>factory.twoWay@60fa3495</td></tr>
+<tr>
+<td title='factory.twoWay.twoWayTrip()'><b>twoWayTrip</b><br>Test class: factory.twoWay<br>Test method: TC_03<br>Parameters: TC_03, Chennai, Madurai, May, 11</td>
+<td></td>
+<td>7</td>
+<td>factory.twoWay@60fa3495</td></tr>
+</table><p>
+</body>
+</html>
