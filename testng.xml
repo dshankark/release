@@ -4,7 +4,7 @@
 <listeners>
            <listener class-name="factory.extRep"/>
            </listeners>
-  <test thread-count="5" parallel="classes" name="Test">
+  <test thread-count="5"  name="Test">
     <classes>
       <class name="factory.oneWay"/>
       <class name="factory.twoWay"/>
