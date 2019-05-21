@@ -34,7 +34,7 @@ public class extRep implements ITestListener{
 		// TODO Auto-generated method stub
 		System.out.println("Pass value from report");
 		test=report.createTest(result.getMethod().getDescription());
-		test=report.createTest(result.getMethod().getMethodName());
+	//	test=report.createTest(result.getMethod().getMethodName());
 
 		test.log(Status.PASS, result.getMethod().getMethodName()+"   "+ result.getMethod().getDescription());
 
