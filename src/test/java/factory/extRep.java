@@ -65,7 +65,9 @@ public class extRep implements ITestListener{
 
 	public void onTestSkipped(ITestResult result) {
 		// TODO Auto-generated method stub
-
+		System.out.println("Pass value from report");
+		test=report.createTest(result.getMethod().getDescription());
+                test.log(Status.SKIP, result.getMethod().getMethodName()+"   "+ result.getMethod().getDescription());
 	}
 
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
